@@ -1,4 +1,4 @@
-# Heston-model
+# Heston model simulation in python
 
 Stochastic volatility model by Heston
 The Heston model is a useful model for simulating stochastic volatility and its effect on the potential paths an asset can take over the life of an option.
