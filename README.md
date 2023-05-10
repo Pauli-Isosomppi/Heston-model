@@ -26,14 +26,17 @@ Where the variables are:
 
 – $dW^\mathbb{P}_{v,t}$ Brownian motion of asset’s price variance
 
-– $\rho^\mathbb{P}$ correlation between:
-      
-  $dW^\mathbb{P}_{S,t}$ and
-  
-  $dW^\mathbb{P}_{v,t}$
+– $\rho^\mathbb{P}$ correlation between: 
+
+$dW^\mathbb{P}_{S,t}$ and 
+
+$dW^\mathbb{P}_{v,t}$
 
 
-Dynamics under risk-neutral measure $\mathbb{Q}$:
+
+
+
+#### Dynamics under risk-neutral measure $\mathbb{Q}$:
 
 $\large dS_t = r S_t dt + \sqrt{v_t}S_t dW^\mathbb{Q}_{S,t}$
 
