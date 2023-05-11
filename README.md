@@ -14,6 +14,7 @@ The heston model is defined by a system of SDEs, to describe the movement of ass
 $\large dS_t = \mu S_t dt + \sqrt{v_t}S_t dW^\mathbb{P}_{S,t}$$
 
 $\large dv_t = \kappa(\theta – v_t)dt +\sigma \sqrt{v_t} dW^\mathbb{P}_{v,t}$$
+
 Where the variables are:
 
 – $\sigma$ volatility of volatility
@@ -26,11 +27,13 @@ Where the variables are:
 
 – $dW^\mathbb{P}_{v,t}$ Brownian motion of asset’s price variance
 
-– $\rho^\mathbb{P}$ correlation between: 
+– $\rho^\mathbb{P}$ correlation between: $`dW^\mathbb{P}_{S,t}`$ and $`dW^\mathbb{P}_{v,t}`$
 
-$dW^\mathbb{P}_{S,t}$ and 
 
-$dW^\mathbb{P}_{v,t}$
+
+
+
+
 
 
 
