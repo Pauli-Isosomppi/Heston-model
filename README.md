@@ -3,13 +3,13 @@
 ## Stochastic volatility model by Heston
 The Heston model is a useful model for simulating stochastic volatility and its effect on the potential paths an asset's price can take over the life of an option.
 
-Popular because of easy closed-form solution for European option pricing
+It is popular because it provides an easy closed-form solution for European option pricing
 - no risk of negative variances
-- incorporation of leverage effect
+- The incorporation of the leverage effect
 - This allows for more effective modeling than the Black-Scholes formula allows due to its restrictive assumption of constant volatility.
 
 ## Heston Model SDE
-The heston model is defined by a system of SDEs, to describe the movement of asset prices, where anasset’s price and volatility follow random, Brownian motion processes (this is under real world measure $\mathbb{P}$ ):
+The heston model is defined by a system of SDEs, to describe the movement of asset prices, where an asset’s price and volatility follow random, Brownian motion processes (this is under real world measure $\mathbb{P}$ ):
 
 $\large dS_t = \mu S_t dt + \sqrt{v_t}S_t dW^\mathbb{P}_{S,t}$$
 
