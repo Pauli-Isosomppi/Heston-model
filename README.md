@@ -48,7 +48,7 @@ $\large dv_t = \kappa^\mathbb{Q}(\theta^\mathbb{Q} – v_t)dt +\sigma^\mathbb{Q}
 
 ## Heston Model for Monte Carlo Simulations
 
-Obviously as discussed one of the nice things about the Heston model for European option prices is that there is a closed-form solution once you have the characteristic function. So discretisation of the SDE is not required for valuing a European option, however if you would like to value other option types with complex features using the Heston model than you can use the following code:
+As discussed, one of the nice things about the Heston model for European option prices is that there is a closed-form solution once you have the characteristic function. So, discretisation of the SDE is not required for valuing a European option, however, if you would like to value other option types with complex features using the Heston model, then you can use the following code:
 
 ### Euler Discretisation of SDEs
 
